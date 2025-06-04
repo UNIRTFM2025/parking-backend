@@ -4,13 +4,14 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Address {
-    private String street;
-    private int number;
-    private String city;
-    private String state;
-    private String country;
+public class Parking {
+    private int id;
+    private String zone;
+    private int layout;
+    private List<Floor> floors;
 }

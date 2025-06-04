@@ -1,12 +1,10 @@
 package com.parking.controller;
 
-import com.parking.entities.ParkingDocument;
-import com.parking.services.ParkingService;
-import io.swagger.v3.oas.annotations.Operation;
-import io.swagger.v3.oas.annotations.media.Content;
-import io.swagger.v3.oas.annotations.media.ExampleObject;
-import io.swagger.v3.oas.annotations.media.Schema;
-import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import com.parking.entities.Floor;
+import com.parking.entities.Parking;
+import com.parking.entities.Slot;
+import com.parking.entities.SpaceDocument;
+import com.parking.services.SpaceService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -15,97 +13,70 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/parkings")
+@RequestMapping("/spaces")
 @Tag(name = "Parking API", description = "Operaciones CRUD para parqueaderos")
 public class ParkingController {
 
     @Autowired
-    private ParkingService parkingService;
+    private SpaceService spaceService;
 
-    @Operation(
-            summary = "Crear un nuevo parqueadero",
-            requestBody = @io.swagger.v3.oas.annotations.parameters.RequestBody(
-                    description = "Estructura completa del parqueadero a crear",
-                    required = true,
-                    content = @Content(
-                            schema = @Schema(implementation = ParkingDocument.class),
-                            examples = @ExampleObject(value = """
-                    {
-                      "site": {
-                        "name": "Centro Mayor",
-                        "rating": "4.4",
-                        "covered": true,
-                        "location": {
-                          "latitude": 4.60971,
-                          "longitude": -74.08175
-                        },
-                        "address": {
-                          "street": "Calle 26",
-                          "number": 25,
-                          "city": "Bogotá",
-                          "state": "Cundinamarca",
-                          "country": "Colombia"
-                        },
-                        "floors": [
-                          {
-                            "number": 1,
-                            "slots": [
-                              { "id": "1", "status": false, "type": "Carro" }
-                            ]
-                          }
-                        ]
-                      }
-                    }
-                    """)
-                    )
-            ),
-            responses = {
-                    @ApiResponse(responseCode = "200", description = "Parqueadero creado exitosamente")
-            }
-    )
+
     @PostMapping
-    public ParkingDocument createParking(@RequestBody ParkingDocument parking) {
-        return parkingService.createParking(parking);
+    public SpaceDocument createParking(@RequestBody SpaceDocument parking) {
+        return spaceService.createParking(parking);
     }
 
-    @Operation(summary = "Obtener todos los parqueaderos", responses = {
-            @ApiResponse(responseCode = "200", description = "Listado de parqueaderos")
-    })
     @GetMapping
-    public List<ParkingDocument> getAllParkings() {
-        return parkingService.getAllParkings();
+    public List<SpaceDocument> getAllParkings() {
+        return spaceService.getAllParkings();
     }
 
-    @Operation(summary = "Obtener parqueadero por ID", responses = {
-            @ApiResponse(responseCode = "200", description = "Parqueadero encontrado"),
-            @ApiResponse(responseCode = "404", description = "Parqueadero no encontrado")
-    })
     @GetMapping("/{id}")
-    public ResponseEntity<ParkingDocument> getParkingById(@PathVariable String id) {
-        return parkingService.getParkingById(id)
+    public ResponseEntity<SpaceDocument> getParkingById(@PathVariable String id) {
+        return spaceService.getParkingById(id)
                 .map(ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());
     }
 
-    @Operation(summary = "Actualizar parqueadero por ID", responses = {
-            @ApiResponse(responseCode = "200", description = "Parqueadero actualizado"),
-            @ApiResponse(responseCode = "404", description = "Parqueadero no encontrado")
-    })
     @PutMapping("/{id}")
-    public ResponseEntity<ParkingDocument> updateParking(@PathVariable String id, @RequestBody ParkingDocument updatedParking) {
-        return parkingService.updateParking(id, updatedParking)
+    public ResponseEntity<SpaceDocument> updateParking(@PathVariable String id, @RequestBody SpaceDocument updatedParking) {
+        return spaceService.updateParking(id, updatedParking)
                 .map(ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());
     }
 
-    @Operation(summary = "Eliminar parqueadero por ID", responses = {
-            @ApiResponse(responseCode = "204", description = "Parqueadero eliminado"),
-            @ApiResponse(responseCode = "404", description = "Parqueadero no encontrado")
-    })
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteParking(@PathVariable String id) {
-        boolean deleted = parkingService.deleteParking(id);
+        boolean deleted = spaceService.deleteParking(id);
         return deleted ? ResponseEntity.noContent().build() : ResponseEntity.notFound().build();
+    }
+
+    @GetMapping("/{id}/parkings/{parkingId}")
+    public ResponseEntity<Parking> getParking(@PathVariable String id, @PathVariable int parkingId) {
+        return spaceService.getParking(id, parkingId)
+                .map(ResponseEntity::ok)
+                .orElse(ResponseEntity.notFound().build());
+    }
+
+    @GetMapping("/{id}/parkings/{parkingId}/floors")
+    public ResponseEntity<List<Floor>> getFloors(@PathVariable String id, @PathVariable int parkingId) {
+        return ResponseEntity.ok(spaceService.getFloors(id, parkingId));
+    }
+
+    @GetMapping("/{id}/parkings/{parkingId}/floors/{floorNumber}")
+    public ResponseEntity<Floor> getFloor(@PathVariable String id, @PathVariable int parkingId, @PathVariable int floorNumber) {
+        return spaceService.getFloor(id, parkingId, floorNumber)
+                .map(ResponseEntity::ok)
+                .orElse(ResponseEntity.notFound().build());
+    }
+
+    @PatchMapping("/{id}/parkings/{parkingId}/floors/{floorNumber}/slots/{slotId}")
+    public ResponseEntity<Slot> updateSlot(@PathVariable String id, @PathVariable int parkingId,
+                                           @PathVariable int floorNumber, @PathVariable String slotId,
+                                           @RequestParam boolean status) {
+        return spaceService.updateSlot(id, parkingId, floorNumber, slotId, status)
+                .map(ResponseEntity::ok)
+                .orElse(ResponseEntity.notFound().build());
     }
 }
 

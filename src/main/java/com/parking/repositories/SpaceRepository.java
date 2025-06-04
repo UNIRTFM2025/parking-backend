@@ -1,11 +1,11 @@
 package com.parking.repositories;
 
 
-import com.parking.entities.ParkingDocument;
+import com.parking.entities.SpaceDocument;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface ParkingRepository extends MongoRepository<ParkingDocument, String> {
+public interface SpaceRepository extends MongoRepository<SpaceDocument, String> {
 
 }
