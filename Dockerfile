@@ -1,5 +1,5 @@
-# Etapa de build
-FROM maven:3.9.6-eclipse-temurin-17 AS build
+# Etapa de compilación con JDK 21
+FROM maven:3.9.6-eclipse-temurin-21 AS build
 
 WORKDIR /app
 
@@ -8,8 +8,8 @@ COPY src ./src
 
 RUN mvn clean package -DskipTests
 
-# Etapa final
-FROM eclipse-temurin:17-jdk
+# Etapa final (runtime JDK 21)
+FROM eclipse-temurin:21-jdk
 WORKDIR /app
 
 COPY --from=build /app/target/*.jar app.jar
