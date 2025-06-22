@@ -1,14 +1,20 @@
-# Usar una imagen base de Java (puedes ajustar la versión si usas otra)
-FROM eclipse-temurin:17-jdk
+FROM eclipse-temurin:17-jdk AS build
 
-# Crear un directorio dentro del contenedor
 WORKDIR /app
 
-# Copiar el jar compilado
-COPY target/parking-backend.jar app.jar
+# Copiar archivos necesarios para construir
+COPY pom.xml .
+COPY src ./src
 
-# Exponer el puerto que usa Spring Boot
+# Construir el jar
+RUN ./mvnw clean package -DskipTests
+
+# Imagen final
+FROM eclipse-temurin:17-jdk
+WORKDIR /app
+
+# Copiar el JAR desde el build
+COPY --from=build /app/target/*.jar app.jar
+
 EXPOSE 8091
-
-# Ejecutar la aplicación
 ENTRYPOINT ["java", "-jar", "app.jar"]
