@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: parking-backend
+    env: java
+    buildCommand: ./mvnw clean package -DskipTests
+    startCommand: java -jar target/*.jar
+    plan: free
+    envVars:
+      - key: SPRING_DATA_MONGODB_URI
+        value: mongodb+srv://hmiguelangel892:zbmLWVIbWc1woyos@parkingdb.w29kwtd.mongodb.net/parkingdb?retryWrites=true&w=majority
+      - key: SERVER_PORT
+        value: 8091
