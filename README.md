@@ -1,17 +1,14 @@
-# Documentación de Endpoints - Gestión de Espacios de Parqueo
+# parking-backend
 
-## Endpoints Disponibles
 
-| Método Http | Endpoint                                          | Query Params | Cuerpo JSON de la petición | Respuesta JSON de la petición                          | Códigos HTTP de respuesta posibles       |
-|-------------|---------------------------------------------------|--------------|----------------------------|--------------------------------------------------------|------------------------------------------|
-| GET         | /spaces                                           |              |                            | Lista de espacios con `id`, `name` y `location`        | 200 OK, 400 Bad Request                  |
-| GET         | /spaces/{id}                                      |              |                            | Detalle del espacio, incluye sitio, dirección y parqueaderos | 200 OK, 404 Not Found               |
-| GET         | /spaces/{id}/parkings/{id}                        |              |                            | Detalle del parqueadero: `id`, `zone`, `layout`        | 200 OK, 404 Not Found                    |
-| GET         | /spaces/{id}/parkings/{id}/floors                 |              |                            | Lista de pisos con número y espacios (slots)           | 200 OK, 400 Bad Request                  |
-| GET         | /spaces/{id}/parkings/{id}/floors/{id}            |              |                            | Detalle del piso: `number`, lista de `slots`           | 200 OK, 404 Not Found                    |
-| PATCH       | /spaces/{id}/parkings/{id}/floors/{id}/slots/{id} |              | `{"status":true}`          | Piso actualizado con lista de `slots`                  | 200 OK, 404 Not Found                    |
-
----
+| Método Http | Endpoint                                          | Query Params | Cuerpo JSON de la petición | Respuesta JSON de la petición                                             | Códigos HTTP de respuesta posibles       |
+|-------------|---------------------------------------------------|--------------|----------------------------|---------------------------------------------------------------------------|------------------------------------------|
+| GET         | /spaces                                           |              |                            | `[{"id":"...","name":"...","location":{"latitude":...,"longitude":...}}]` | 200 OK, 400 Bad Request                  |
+| GET         | /spaces/{id}                                      |              |                            | `{"id":"...","site":{"name":"...","paking":[{"id":1,"floors":[...]}]}}`   | 200 OK, 404 Not Found                    |
+| GET         | /spaces/{id}/parkings/{id}                        |              |                            | `{"id":1,"zone":"Zona Norte","layout":1}`                                 | 200 OK, 404 Not Found                    |
+| GET         | /spaces/{id}/parkings/{id}/floors                 |              |                            | `[{"number":1,"slots":[{"id":"1","status":false,"type":"Carro"}]}]`       | 200 OK, 400 Bad Request                  |
+| GET         | /spaces/{id}/parkings/{id}/floors/{id}            |              |                            | `{"number":1,"slots":[{"id":"1","status":false,"type":"Carro"}]}`         | 200 OK, 404 Not Found                    |
+| PATCH       | /spaces/{id}/parkings/{id}/floors/{id}/slots/{id} |              | `{"status":true}`          | `{"number":1,"slots":[{"id":"1","status":false,"type":"Carro"}]}`         | 200 OK, 404 Not Found                    |
 
 ### Ejemplos de Respuestas JSON
 
