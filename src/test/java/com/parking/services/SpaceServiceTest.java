@@ -1,5 +1,7 @@
 package com.parking.services;
 
+import com.parking.dto.FloorDTO;
+import com.parking.dto.SpaceDocumentDTO;
 import com.parking.entities.*;
 import com.parking.repositories.SpaceRepository;
 import org.junit.jupiter.api.BeforeEach;
@@ -40,7 +42,7 @@ class SpaceServiceTest {
         List<SpaceDocument> mockList = List.of(new SpaceDocument());
         when(spaceRepository.findAll()).thenReturn(mockList);
 
-        List<SpaceDocument> result = spaceService.getAllParkings();
+        List<SpaceDocumentDTO> result = spaceService.getAllParkings();
 
         assertEquals(1, result.size());
     }
@@ -162,7 +164,7 @@ class SpaceServiceTest {
 
         when(spaceRepository.findById("space1")).thenReturn(Optional.of(doc));
 
-        Optional<Floor> result = spaceService.getFloor("space1", 1, 2);
+        Optional<FloorDTO> result = spaceService.getFloor("space1", 1, 2);
 
         assertTrue(result.isPresent());
         assertEquals(2, result.get().getNumber());
