@@ -1,5 +1,6 @@
 package com.parking.controller;
 
+import com.parking.dto.SpaceDocumentDTO;
 import com.parking.entities.Floor;
 import com.parking.entities.Parking;
 import com.parking.entities.Slot;
@@ -51,7 +52,7 @@ class ParkingControllerTest {
 
     @Test
     void testGetAllParkings() throws Exception {
-        SpaceDocument doc = new SpaceDocument();
+        SpaceDocumentDTO doc = new SpaceDocumentDTO();
         doc.setId("123");
 
         Mockito.when(spaceService.getAllParkings()).thenReturn(List.of(doc));

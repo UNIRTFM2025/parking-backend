@@ -1,5 +1,7 @@
 package com.parking.controller;
 
+import com.parking.dto.FloorDTO;
+import com.parking.dto.SpaceDocumentDTO;
 import com.parking.entities.Floor;
 import com.parking.entities.Parking;
 import com.parking.entities.Slot;
@@ -27,13 +29,13 @@ public class ParkingController {
     }
 
     @GetMapping
-    public List<SpaceDocument> getAllParkings() {
+    public List<SpaceDocumentDTO> getAllParkings() {
         return spaceService.getAllParkings();
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<SpaceDocument> getParkingById(@PathVariable String id) {
-        return spaceService.getParkingById(id)
+    public ResponseEntity<SpaceDocumentDTO> getParkingById(@PathVariable String id) {
+        return spaceService.getSpaceById(id)
                 .map(ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());
     }
@@ -64,7 +66,7 @@ public class ParkingController {
     }
 
     @GetMapping("/{id}/parkings/{parkingId}/floors/{floorNumber}")
-    public ResponseEntity<Floor> getFloor(@PathVariable String id, @PathVariable int parkingId, @PathVariable int floorNumber) {
+    public ResponseEntity<FloorDTO> getFloor(@PathVariable String id, @PathVariable int parkingId, @PathVariable int floorNumber) {
         return spaceService.getFloor(id, parkingId, floorNumber)
                 .map(ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());
