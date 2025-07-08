@@ -74,7 +74,7 @@ public class ParkingController {
 
     @PatchMapping("/{id}/parkings/{parkingId}/floors/{floorNumber}/slots/{slotId}")
     public ResponseEntity<Slot> updateSlot(@PathVariable String id, @PathVariable int parkingId,
-                                           @PathVariable int floorNumber, @PathVariable String slotId,
+                                           @PathVariable int floorNumber, @PathVariable int slotId,
                                            @RequestParam boolean status) {
         return spaceService.updateSlot(id, parkingId, floorNumber, slotId, status)
                 .map(ResponseEntity::ok)

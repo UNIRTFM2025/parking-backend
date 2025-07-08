@@ -154,15 +154,15 @@ class ParkingControllerTest {
     @Test
     void testUpdateSlot_found() throws Exception {
         Slot slot = new Slot();
-        slot.setId("A1");
+        slot.setIdSlot(1);
         slot.setStatus(true);
 
-        Mockito.when(spaceService.updateSlot("space1", 1, 2, "A1", true))
+        Mockito.when(spaceService.updateSlot("space1", 1, 2, 1, true))
                 .thenReturn(Optional.of(slot));
 
         mockMvc.perform(patch("/spaces/space1/parkings/1/floors/2/slots/A1?status=true"))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.id").value("A1"))
+                .andExpect(jsonPath("$.id").value("1"))
                 .andExpect(jsonPath("$.status").value(true));
     }
 }

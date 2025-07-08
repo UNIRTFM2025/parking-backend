@@ -134,7 +134,7 @@ public class SpaceService {
                 });
     }
 
-    public Optional<Slot> updateSlot(String spaceId, int parkingId, int floorNumber, String slotId, boolean newStatus) {
+    public Optional<Slot> updateSlot(String spaceId, int parkingId, int floorNumber, int slotId, boolean newStatus) {
         Optional<SpaceDocument> optionalSpace = spaceRepository.findById(spaceId);
         if (optionalSpace.isEmpty()) return Optional.empty();
 
@@ -144,7 +144,7 @@ public class SpaceService {
                 for (Floor f : p.getFloors()) {
                     if (f.getNumber() == floorNumber) {
                         for (Slot s : f.getSlots()) {
-                            if (s.getId().equals(slotId)) {
+                            if (s.getIdSlot() == slotId) {
                                 s.setStatus(newStatus);
                                 spaceRepository.save(space);
                                 return Optional.of(s);

@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Slot {
-    private String id;
+    private int idSlot;
     private boolean status;
     private String type;
 }

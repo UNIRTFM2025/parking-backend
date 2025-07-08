@@ -173,7 +173,7 @@ class SpaceServiceTest {
     @Test
     void updateSlot_shouldUpdateStatusIfFound() {
         Slot slot = new Slot();
-        slot.setId("A1");
+        slot.setIdSlot(1);
         slot.setStatus(false);
 
         Floor floor = new Floor();
@@ -193,7 +193,7 @@ class SpaceServiceTest {
         when(spaceRepository.findById("space1")).thenReturn(Optional.of(space));
         when(spaceRepository.save(any())).thenReturn(space);
 
-        Optional<Slot> result = spaceService.updateSlot("space1", 2, 1, "A1", true);
+        Optional<Slot> result = spaceService.updateSlot("space1", 2, 1, 1, true);
 
         assertTrue(result.isPresent());
         assertTrue(result.get().isStatus());
