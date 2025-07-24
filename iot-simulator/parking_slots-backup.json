@@ -1,0 +1,2172 @@
+[
+  {
+    "id": "682e04f3446629a06a8575e9",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 1,
+    "status": false
+  },
+  {
+    "id": "682e04f3446629a06a8575e9",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 2,
+    "status": false
+  },
+  {
+    "id": "682e04f3446629a06a8575e9",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 3,
+    "status": true
+  },
+  {
+    "id": "682e04f3446629a06a8575e9",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 4,
+    "status": false
+  },
+  {
+    "id": "682e04f3446629a06a8575e9",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 5,
+    "status": false
+  },
+  {
+    "id": "682e04f3446629a06a8575e9",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 6,
+    "status": true
+  },
+  {
+    "id": "682e04f3446629a06a8575e9",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 7,
+    "status": false
+  },
+  {
+    "id": "682e04f3446629a06a8575e9",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 8,
+    "status": true
+  },
+  {
+    "id": "682e04f3446629a06a8575e9",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 9,
+    "status": true
+  },
+  {
+    "id": "682e04f3446629a06a8575e9",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 10,
+    "status": true
+  },
+  {
+    "id": "682e04f3446629a06a8575e9",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 1,
+    "status": false
+  },
+  {
+    "id": "682e04f3446629a06a8575e9",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 2,
+    "status": false
+  },
+  {
+    "id": "682e04f3446629a06a8575e9",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 3,
+    "status": true
+  },
+  {
+    "id": "682e04f3446629a06a8575e9",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 4,
+    "status": false
+  },
+  {
+    "id": "682e04f3446629a06a8575e9",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 5,
+    "status": false
+  },
+  {
+    "id": "682e04f3446629a06a8575e9",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 6,
+    "status": true
+  },
+  {
+    "id": "682e04f3446629a06a8575e9",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 7,
+    "status": false
+  },
+  {
+    "id": "682e04f3446629a06a8575e9",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 8,
+    "status": false
+  },
+  {
+    "id": "682e04f3446629a06a8575e9",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 9,
+    "status": false
+  },
+  {
+    "id": "682e04f3446629a06a8575e9",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 10,
+    "status": true
+  },
+  {
+    "id": "682e0559446629a06a8575eb",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 1,
+    "status": false
+  },
+  {
+    "id": "682e0559446629a06a8575eb",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 2,
+    "status": true
+  },
+  {
+    "id": "682e0559446629a06a8575eb",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 3,
+    "status": false
+  },
+  {
+    "id": "682e0559446629a06a8575eb",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 4,
+    "status": false
+  },
+  {
+    "id": "682e0559446629a06a8575eb",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 5,
+    "status": true
+  },
+  {
+    "id": "682e0559446629a06a8575eb",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 6,
+    "status": false
+  },
+  {
+    "id": "682e0559446629a06a8575eb",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 7,
+    "status": true
+  },
+  {
+    "id": "682e0559446629a06a8575eb",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 8,
+    "status": false
+  },
+  {
+    "id": "682e0559446629a06a8575eb",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 9,
+    "status": false
+  },
+  {
+    "id": "682e0559446629a06a8575eb",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 10,
+    "status": true
+  },
+  {
+    "id": "682e0559446629a06a8575eb",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 1,
+    "status": false
+  },
+  {
+    "id": "682e0559446629a06a8575eb",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 2,
+    "status": true
+  },
+  {
+    "id": "682e0559446629a06a8575eb",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 3,
+    "status": false
+  },
+  {
+    "id": "682e0559446629a06a8575eb",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 4,
+    "status": false
+  },
+  {
+    "id": "682e0559446629a06a8575eb",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 5,
+    "status": true
+  },
+  {
+    "id": "682e0559446629a06a8575eb",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 6,
+    "status": true
+  },
+  {
+    "id": "682e0559446629a06a8575eb",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 7,
+    "status": false
+  },
+  {
+    "id": "682e0559446629a06a8575eb",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 8,
+    "status": false
+  },
+  {
+    "id": "682e0559446629a06a8575eb",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 9,
+    "status": true
+  },
+  {
+    "id": "682e0559446629a06a8575eb",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 10,
+    "status": false
+  },
+  {
+    "id": "682e05a3446629a06a8575ee",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 1,
+    "status": true
+  },
+  {
+    "id": "682e05a3446629a06a8575ee",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 2,
+    "status": false
+  },
+  {
+    "id": "682e05a3446629a06a8575ee",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 3,
+    "status": false
+  },
+  {
+    "id": "682e05a3446629a06a8575ee",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 4,
+    "status": true
+  },
+  {
+    "id": "682e05a3446629a06a8575ee",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 5,
+    "status": false
+  },
+  {
+    "id": "682e05a3446629a06a8575ee",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 6,
+    "status": false
+  },
+  {
+    "id": "682e05a3446629a06a8575ee",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 7,
+    "status": true
+  },
+  {
+    "id": "682e05a3446629a06a8575ee",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 8,
+    "status": true
+  },
+  {
+    "id": "682e05a3446629a06a8575ee",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 9,
+    "status": false
+  },
+  {
+    "id": "682e05a3446629a06a8575ee",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 10,
+    "status": true
+  },
+  {
+    "id": "682e05a3446629a06a8575ee",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 1,
+    "status": false
+  },
+  {
+    "id": "682e05a3446629a06a8575ee",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 2,
+    "status": true
+  },
+  {
+    "id": "682e05a3446629a06a8575ee",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 3,
+    "status": false
+  },
+  {
+    "id": "682e05a3446629a06a8575ee",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 4,
+    "status": false
+  },
+  {
+    "id": "682e05a3446629a06a8575ee",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 5,
+    "status": true
+  },
+  {
+    "id": "682e05a3446629a06a8575ee",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 6,
+    "status": false
+  },
+  {
+    "id": "682e05a3446629a06a8575ee",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 7,
+    "status": true
+  },
+  {
+    "id": "682e05a3446629a06a8575ee",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 8,
+    "status": false
+  },
+  {
+    "id": "682e05a3446629a06a8575ee",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 9,
+    "status": true
+  },
+  {
+    "id": "682e05a3446629a06a8575ee",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 10,
+    "status": false
+  },
+  {
+    "id": "682e05c0446629a06a8575f0",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 1,
+    "status": true
+  },
+  {
+    "id": "682e05c0446629a06a8575f0",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 2,
+    "status": false
+  },
+  {
+    "id": "682e05c0446629a06a8575f0",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 3,
+    "status": false
+  },
+  {
+    "id": "682e05c0446629a06a8575f0",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 4,
+    "status": true
+  },
+  {
+    "id": "682e05c0446629a06a8575f0",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 5,
+    "status": false
+  },
+  {
+    "id": "682e05c0446629a06a8575f0",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 6,
+    "status": false
+  },
+  {
+    "id": "682e05c0446629a06a8575f0",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 7,
+    "status": true
+  },
+  {
+    "id": "682e05c0446629a06a8575f0",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 8,
+    "status": true
+  },
+  {
+    "id": "682e05c0446629a06a8575f0",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 9,
+    "status": false
+  },
+  {
+    "id": "682e05c0446629a06a8575f0",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 10,
+    "status": true
+  },
+  {
+    "id": "682e05c0446629a06a8575f0",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 1,
+    "status": false
+  },
+  {
+    "id": "682e05c0446629a06a8575f0",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 2,
+    "status": true
+  },
+  {
+    "id": "682e05c0446629a06a8575f0",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 3,
+    "status": false
+  },
+  {
+    "id": "682e05c0446629a06a8575f0",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 4,
+    "status": false
+  },
+  {
+    "id": "682e05c0446629a06a8575f0",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 5,
+    "status": true
+  },
+  {
+    "id": "682e05c0446629a06a8575f0",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 6,
+    "status": false
+  },
+  {
+    "id": "682e05c0446629a06a8575f0",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 7,
+    "status": true
+  },
+  {
+    "id": "682e05c0446629a06a8575f0",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 8,
+    "status": false
+  },
+  {
+    "id": "682e05c0446629a06a8575f0",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 9,
+    "status": true
+  },
+  {
+    "id": "682e05c0446629a06a8575f0",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 10,
+    "status": false
+  },
+  {
+    "id": "682e05e2446629a06a8575f2",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 1,
+    "status": false
+  },
+  {
+    "id": "682e05e2446629a06a8575f2",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 2,
+    "status": false
+  },
+  {
+    "id": "682e05e2446629a06a8575f2",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 3,
+    "status": true
+  },
+  {
+    "id": "682e05e2446629a06a8575f2",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 4,
+    "status": true
+  },
+  {
+    "id": "682e05e2446629a06a8575f2",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 5,
+    "status": false
+  },
+  {
+    "id": "682e05e2446629a06a8575f2",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 6,
+    "status": true
+  },
+  {
+    "id": "682e05e2446629a06a8575f2",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 7,
+    "status": false
+  },
+  {
+    "id": "682e05e2446629a06a8575f2",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 8,
+    "status": false
+  },
+  {
+    "id": "682e05e2446629a06a8575f2",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 9,
+    "status": true
+  },
+  {
+    "id": "682e05e2446629a06a8575f2",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 10,
+    "status": false
+  },
+  {
+    "id": "682e05e2446629a06a8575f2",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 1,
+    "status": true
+  },
+  {
+    "id": "682e05e2446629a06a8575f2",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 2,
+    "status": false
+  },
+  {
+    "id": "682e05e2446629a06a8575f2",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 3,
+    "status": false
+  },
+  {
+    "id": "682e05e2446629a06a8575f2",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 4,
+    "status": false
+  },
+  {
+    "id": "682e05e2446629a06a8575f2",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 5,
+    "status": true
+  },
+  {
+    "id": "682e05e2446629a06a8575f2",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 6,
+    "status": false
+  },
+  {
+    "id": "682e05e2446629a06a8575f2",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 7,
+    "status": false
+  },
+  {
+    "id": "682e05e2446629a06a8575f2",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 8,
+    "status": true
+  },
+  {
+    "id": "682e05e2446629a06a8575f2",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 9,
+    "status": true
+  },
+  {
+    "id": "682e05e2446629a06a8575f2",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 10,
+    "status": false
+  },
+  {
+    "id": "682e0619446629a06a8575f4",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 1,
+    "status": true
+  },
+  {
+    "id": "682e0619446629a06a8575f4",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 2,
+    "status": false
+  },
+  {
+    "id": "682e0619446629a06a8575f4",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 3,
+    "status": true
+  },
+  {
+    "id": "682e0619446629a06a8575f4",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 4,
+    "status": false
+  },
+  {
+    "id": "682e0619446629a06a8575f4",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 5,
+    "status": false
+  },
+  {
+    "id": "682e0619446629a06a8575f4",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 6,
+    "status": true
+  },
+  {
+    "id": "682e0619446629a06a8575f4",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 7,
+    "status": true
+  },
+  {
+    "id": "682e0619446629a06a8575f4",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 8,
+    "status": false
+  },
+  {
+    "id": "682e0619446629a06a8575f4",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 9,
+    "status": false
+  },
+  {
+    "id": "682e0619446629a06a8575f4",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 10,
+    "status": true
+  },
+  {
+    "id": "682e0619446629a06a8575f4",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 1,
+    "status": false
+  },
+  {
+    "id": "682e0619446629a06a8575f4",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 2,
+    "status": false
+  },
+  {
+    "id": "682e0619446629a06a8575f4",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 3,
+    "status": true
+  },
+  {
+    "id": "682e0619446629a06a8575f4",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 4,
+    "status": true
+  },
+  {
+    "id": "682e0619446629a06a8575f4",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 5,
+    "status": false
+  },
+  {
+    "id": "682e0619446629a06a8575f4",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 6,
+    "status": false
+  },
+  {
+    "id": "682e0619446629a06a8575f4",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 7,
+    "status": true
+  },
+  {
+    "id": "682e0619446629a06a8575f4",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 8,
+    "status": false
+  },
+  {
+    "id": "682e0619446629a06a8575f4",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 9,
+    "status": false
+  },
+  {
+    "id": "682e0619446629a06a8575f4",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 10,
+    "status": true
+  },
+  {
+    "id": "682e063d446629a06a8575f6",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 1,
+    "status": false
+  },
+  {
+    "id": "682e063d446629a06a8575f6",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 2,
+    "status": false
+  },
+  {
+    "id": "682e063d446629a06a8575f6",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 3,
+    "status": true
+  },
+  {
+    "id": "682e063d446629a06a8575f6",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 4,
+    "status": false
+  },
+  {
+    "id": "682e063d446629a06a8575f6",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 5,
+    "status": true
+  },
+  {
+    "id": "682e063d446629a06a8575f6",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 6,
+    "status": false
+  },
+  {
+    "id": "682e063d446629a06a8575f6",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 7,
+    "status": true
+  },
+  {
+    "id": "682e063d446629a06a8575f6",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 8,
+    "status": false
+  },
+  {
+    "id": "682e063d446629a06a8575f6",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 9,
+    "status": false
+  },
+  {
+    "id": "682e063d446629a06a8575f6",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 10,
+    "status": true
+  },
+  {
+    "id": "682e063d446629a06a8575f6",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 1,
+    "status": true
+  },
+  {
+    "id": "682e063d446629a06a8575f6",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 2,
+    "status": false
+  },
+  {
+    "id": "682e063d446629a06a8575f6",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 3,
+    "status": false
+  },
+  {
+    "id": "682e063d446629a06a8575f6",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 4,
+    "status": true
+  },
+  {
+    "id": "682e063d446629a06a8575f6",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 5,
+    "status": false
+  },
+  {
+    "id": "682e063d446629a06a8575f6",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 6,
+    "status": true
+  },
+  {
+    "id": "682e063d446629a06a8575f6",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 7,
+    "status": false
+  },
+  {
+    "id": "682e063d446629a06a8575f6",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 8,
+    "status": false
+  },
+  {
+    "id": "682e063d446629a06a8575f6",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 9,
+    "status": true
+  },
+  {
+    "id": "682e063d446629a06a8575f6",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 10,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 1,
+    "status": true
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 2,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 3,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 4,
+    "status": true
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 5,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 6,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 7,
+    "status": true
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 8,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 9,
+    "status": true
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 10,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 11,
+    "status": true
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 12,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 13,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 14,
+    "status": true
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 15,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 16,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 17,
+    "status": true
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 18,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 19,
+    "status": true
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 20,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 21,
+    "status": true
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 22,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 23,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 24,
+    "status": true
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 25,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 26,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 27,
+    "status": true
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 28,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 29,
+    "status": true
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 30,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 31,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 32,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 33,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 34,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 35,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 36,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 37,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 38,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 39,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 40,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 1,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 2,
+    "status": true
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 3,
+    "status": true
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 4,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 5,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 6,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 7,
+    "status": true
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 8,
+    "status": false
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 9,
+    "status": true
+  },
+  {
+    "id": "682e0664446629a06a8575f8",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 10,
+    "status": false
+  },
+  {
+    "id": "682e068d446629a06a8575fa",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 1,
+    "status": false
+  },
+  {
+    "id": "682e068d446629a06a8575fa",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 2,
+    "status": true
+  },
+  {
+    "id": "682e068d446629a06a8575fa",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 3,
+    "status": false
+  },
+  {
+    "id": "682e068d446629a06a8575fa",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 4,
+    "status": false
+  },
+  {
+    "id": "682e068d446629a06a8575fa",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 5,
+    "status": true
+  },
+  {
+    "id": "682e068d446629a06a8575fa",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 6,
+    "status": true
+  },
+  {
+    "id": "682e068d446629a06a8575fa",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 7,
+    "status": false
+  },
+  {
+    "id": "682e068d446629a06a8575fa",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 8,
+    "status": true
+  },
+  {
+    "id": "682e068d446629a06a8575fa",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 9,
+    "status": false
+  },
+  {
+    "id": "682e068d446629a06a8575fa",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 10,
+    "status": false
+  },
+  {
+    "id": "682e068d446629a06a8575fa",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 1,
+    "status": true
+  },
+  {
+    "id": "682e068d446629a06a8575fa",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 2,
+    "status": false
+  },
+  {
+    "id": "682e068d446629a06a8575fa",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 3,
+    "status": false
+  },
+  {
+    "id": "682e068d446629a06a8575fa",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 4,
+    "status": true
+  },
+  {
+    "id": "682e068d446629a06a8575fa",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 5,
+    "status": false
+  },
+  {
+    "id": "682e068d446629a06a8575fa",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 6,
+    "status": false
+  },
+  {
+    "id": "682e068d446629a06a8575fa",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 7,
+    "status": false
+  },
+  {
+    "id": "682e068d446629a06a8575fa",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 8,
+    "status": true
+  },
+  {
+    "id": "682e068d446629a06a8575fa",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 9,
+    "status": false
+  },
+  {
+    "id": "682e068d446629a06a8575fa",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 10,
+    "status": true
+  },
+  {
+    "id": "682e06aa446629a06a8575fc",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 1,
+    "status": false
+  },
+  {
+    "id": "682e06aa446629a06a8575fc",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 2,
+    "status": false
+  },
+  {
+    "id": "682e06aa446629a06a8575fc",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 3,
+    "status": true
+  },
+  {
+    "id": "682e06aa446629a06a8575fc",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 4,
+    "status": false
+  },
+  {
+    "id": "682e06aa446629a06a8575fc",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 5,
+    "status": true
+  },
+  {
+    "id": "682e06aa446629a06a8575fc",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 6,
+    "status": false
+  },
+  {
+    "id": "682e06aa446629a06a8575fc",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 7,
+    "status": true
+  },
+  {
+    "id": "682e06aa446629a06a8575fc",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 8,
+    "status": false
+  },
+  {
+    "id": "682e06aa446629a06a8575fc",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 9,
+    "status": true
+  },
+  {
+    "id": "682e06aa446629a06a8575fc",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 10,
+    "status": false
+  },
+  {
+    "id": "682e06aa446629a06a8575fc",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 1,
+    "status": true
+  },
+  {
+    "id": "682e06aa446629a06a8575fc",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 2,
+    "status": false
+  },
+  {
+    "id": "682e06aa446629a06a8575fc",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 3,
+    "status": false
+  },
+  {
+    "id": "682e06aa446629a06a8575fc",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 4,
+    "status": true
+  },
+  {
+    "id": "682e06aa446629a06a8575fc",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 5,
+    "status": false
+  },
+  {
+    "id": "682e06aa446629a06a8575fc",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 6,
+    "status": true
+  },
+  {
+    "id": "682e06aa446629a06a8575fc",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 7,
+    "status": false
+  },
+  {
+    "id": "682e06aa446629a06a8575fc",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 8,
+    "status": true
+  },
+  {
+    "id": "682e06aa446629a06a8575fc",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 9,
+    "status": false
+  },
+  {
+    "id": "682e06aa446629a06a8575fc",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 10,
+    "status": true
+  },
+  {
+    "id": "682e07d4446629a06a8575fe",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 1,
+    "status": false
+  },
+  {
+    "id": "682e07d4446629a06a8575fe",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 2,
+    "status": true
+  },
+  {
+    "id": "682e07d4446629a06a8575fe",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 3,
+    "status": false
+  },
+  {
+    "id": "682e07d4446629a06a8575fe",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 4,
+    "status": true
+  },
+  {
+    "id": "682e07d4446629a06a8575fe",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 5,
+    "status": false
+  },
+  {
+    "id": "682e07d4446629a06a8575fe",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 6,
+    "status": false
+  },
+  {
+    "id": "682e07d4446629a06a8575fe",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 7,
+    "status": true
+  },
+  {
+    "id": "682e07d4446629a06a8575fe",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 8,
+    "status": true
+  },
+  {
+    "id": "682e07d4446629a06a8575fe",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 9,
+    "status": false
+  },
+  {
+    "id": "682e07d4446629a06a8575fe",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 10,
+    "status": false
+  },
+  {
+    "id": "682e07d4446629a06a8575fe",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 1,
+    "status": true
+  },
+  {
+    "id": "682e07d4446629a06a8575fe",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 2,
+    "status": false
+  },
+  {
+    "id": "682e07d4446629a06a8575fe",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 3,
+    "status": false
+  },
+  {
+    "id": "682e07d4446629a06a8575fe",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 4,
+    "status": true
+  },
+  {
+    "id": "682e07d4446629a06a8575fe",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 5,
+    "status": false
+  },
+  {
+    "id": "682e07d4446629a06a8575fe",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 6,
+    "status": false
+  },
+  {
+    "id": "682e07d4446629a06a8575fe",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 7,
+    "status": true
+  },
+  {
+    "id": "682e07d4446629a06a8575fe",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 8,
+    "status": false
+  },
+  {
+    "id": "682e07d4446629a06a8575fe",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 9,
+    "status": true
+  },
+  {
+    "id": "682e07d4446629a06a8575fe",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 10,
+    "status": false
+  },
+  {
+    "id": "682e0803446629a06a857600",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 1,
+    "status": false
+  },
+  {
+    "id": "682e0803446629a06a857600",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 2,
+    "status": false
+  },
+  {
+    "id": "682e0803446629a06a857600",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 3,
+    "status": true
+  },
+  {
+    "id": "682e0803446629a06a857600",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 4,
+    "status": true
+  },
+  {
+    "id": "682e0803446629a06a857600",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 5,
+    "status": false
+  },
+  {
+    "id": "682e0803446629a06a857600",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 6,
+    "status": true
+  },
+  {
+    "id": "682e0803446629a06a857600",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 7,
+    "status": false
+  },
+  {
+    "id": "682e0803446629a06a857600",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 8,
+    "status": false
+  },
+  {
+    "id": "682e0803446629a06a857600",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 9,
+    "status": true
+  },
+  {
+    "id": "682e0803446629a06a857600",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 10,
+    "status": false
+  },
+  {
+    "id": "682e0803446629a06a857600",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 1,
+    "status": true
+  },
+  {
+    "id": "682e0803446629a06a857600",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 2,
+    "status": false
+  },
+  {
+    "id": "682e0803446629a06a857600",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 3,
+    "status": false
+  },
+  {
+    "id": "682e0803446629a06a857600",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 4,
+    "status": false
+  },
+  {
+    "id": "682e0803446629a06a857600",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 5,
+    "status": true
+  },
+  {
+    "id": "682e0803446629a06a857600",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 6,
+    "status": false
+  },
+  {
+    "id": "682e0803446629a06a857600",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 7,
+    "status": true
+  },
+  {
+    "id": "682e0803446629a06a857600",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 8,
+    "status": false
+  },
+  {
+    "id": "682e0803446629a06a857600",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 9,
+    "status": true
+  },
+  {
+    "id": "682e0803446629a06a857600",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 10,
+    "status": false
+  },
+  {
+    "id": "682e082e446629a06a857602",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 1,
+    "status": false
+  },
+  {
+    "id": "682e082e446629a06a857602",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 2,
+    "status": true
+  },
+  {
+    "id": "682e082e446629a06a857602",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 3,
+    "status": false
+  },
+  {
+    "id": "682e082e446629a06a857602",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 4,
+    "status": false
+  },
+  {
+    "id": "682e082e446629a06a857602",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 5,
+    "status": true
+  },
+  {
+    "id": "682e082e446629a06a857602",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 6,
+    "status": false
+  },
+  {
+    "id": "682e082e446629a06a857602",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 7,
+    "status": true
+  },
+  {
+    "id": "682e082e446629a06a857602",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 8,
+    "status": true
+  },
+  {
+    "id": "682e082e446629a06a857602",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 9,
+    "status": false
+  },
+  {
+    "id": "682e082e446629a06a857602",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 10,
+    "status": false
+  },
+  {
+    "id": "682e082e446629a06a857602",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 1,
+    "status": true
+  },
+  {
+    "id": "682e082e446629a06a857602",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 2,
+    "status": false
+  },
+  {
+    "id": "682e082e446629a06a857602",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 3,
+    "status": false
+  },
+  {
+    "id": "682e082e446629a06a857602",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 4,
+    "status": true
+  },
+  {
+    "id": "682e082e446629a06a857602",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 5,
+    "status": false
+  },
+  {
+    "id": "682e082e446629a06a857602",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 6,
+    "status": true
+  },
+  {
+    "id": "682e082e446629a06a857602",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 7,
+    "status": false
+  },
+  {
+    "id": "682e082e446629a06a857602",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 8,
+    "status": true
+  },
+  {
+    "id": "682e082e446629a06a857602",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 9,
+    "status": false
+  },
+  {
+    "id": "682e082e446629a06a857602",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 10,
+    "status": true
+  },
+  {
+    "id": "682e084d446629a06a857604",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 1,
+    "status": false
+  },
+  {
+    "id": "682e084d446629a06a857604",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 2,
+    "status": true
+  },
+  {
+    "id": "682e084d446629a06a857604",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 3,
+    "status": false
+  },
+  {
+    "id": "682e084d446629a06a857604",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 4,
+    "status": true
+  },
+  {
+    "id": "682e084d446629a06a857604",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 5,
+    "status": false
+  },
+  {
+    "id": "682e084d446629a06a857604",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 6,
+    "status": false
+  },
+  {
+    "id": "682e084d446629a06a857604",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 7,
+    "status": true
+  },
+  {
+    "id": "682e084d446629a06a857604",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 8,
+    "status": true
+  },
+  {
+    "id": "682e084d446629a06a857604",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 9,
+    "status": false
+  },
+  {
+    "id": "682e084d446629a06a857604",
+    "parkingId": 1,
+    "floorsId": 1,
+    "slotId": 10,
+    "status": false
+  },
+  {
+    "id": "682e084d446629a06a857604",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 1,
+    "status": true
+  },
+  {
+    "id": "682e084d446629a06a857604",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 2,
+    "status": false
+  },
+  {
+    "id": "682e084d446629a06a857604",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 3,
+    "status": false
+  },
+  {
+    "id": "682e084d446629a06a857604",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 4,
+    "status": true
+  },
+  {
+    "id": "682e084d446629a06a857604",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 5,
+    "status": false
+  },
+  {
+    "id": "682e084d446629a06a857604",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 6,
+    "status": true
+  },
+  {
+    "id": "682e084d446629a06a857604",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 7,
+    "status": false
+  },
+  {
+    "id": "682e084d446629a06a857604",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 8,
+    "status": true
+  },
+  {
+    "id": "682e084d446629a06a857604",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 9,
+    "status": false
+  },
+  {
+    "id": "682e084d446629a06a857604",
+    "parkingId": 1,
+    "floorsId": 2,
+    "slotId": 10,
+    "status": true
+  }
+]

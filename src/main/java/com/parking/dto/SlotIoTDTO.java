@@ -11,8 +11,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonIgnoreProperties(ignoreUnknown = true, allowSetters = true)
-public class SpaceDocumentDTO {
-
+public class SlotIoTDTO {
     private String id;
-    private SiteDTO site;
+    private int parkingId;
+    private int floorsId;
+    private int slotId;
+    private boolean status;
 }
