@@ -34,7 +34,6 @@ public class ParkingSensorClient {
                 String json = new String(msg.getPayload());
                 try {
                     SlotIoTDTO status = objectMapper.readValue(json, SlotIoTDTO.class);
-                    System.out.println("Mensaje recibido: " + status);
                     // Aquí puedes guardar en BD o enviar a otro microservicio
                     Optional<Slot> update = spaceService.updateSlot(status.getId(), status.getParkingId(), status.getFloorsId(), status.getSlotId(), status.isStatus());
                     if (update.isPresent()) {

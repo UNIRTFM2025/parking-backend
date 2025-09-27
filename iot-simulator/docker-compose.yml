@@ -1,0 +1,104 @@
+version: "3.9"
+services:
+  parking_maloka:
+    build: .
+    container_name: parking_maloka
+    environment:
+      - FILENAME=parking_slots_maloka.json
+    restart: always
+    networks:
+      - simulator_net
+
+  parking_santafe:
+    build: .
+    container_name: parking_santafe
+    environment:
+      - FILENAME=parking_slots_santafe.json
+    restart: always
+    networks:
+      - simulator_net
+
+  parking_multiplaza:
+    build: .
+    container_name: parking_multiplaza
+    environment:
+      - FILENAME=parking_slots_multiplaza.json
+    restart: always
+    networks:
+      - simulator_net
+
+  parking_centro_mayor:
+    build: .
+    container_name: parking_centro_mayor
+    environment:
+      - FILENAME=parking_slots_centro_mayor.json
+    restart: always
+    networks:
+      - simulator_net
+
+  parking_titan:
+    build: .
+    container_name: parking_titan
+    environment:
+      - FILENAME=parking_slots_titan.json
+    restart: always
+    networks:
+      - simulator_net
+
+  parking_eden:
+    build: .
+    container_name: parking_eden
+    environment:
+      - FILENAME=parking_slots_eden.json
+    restart: always
+    networks:
+      - simulator_net
+
+  parking_niza:
+    build: .
+    container_name: parking_niza
+    environment:
+      - FILENAME=parking_slots_niza.json
+    restart: always
+    networks:
+      - simulator_net
+
+  parking_unicentro:
+    build: .
+    container_name: parking_unicentro
+    environment:
+      - FILENAME=parking_slots_unicentro.json
+    restart: always
+    networks:
+      - simulator_net
+
+  parking_colina:
+    build: .
+    container_name: parking_colina
+    environment:
+      - FILENAME=parking_slots_colina.json
+    restart: always
+    networks:
+      - simulator_net
+
+  parking_atlantis:
+    build: .
+    container_name: parking_atlantis
+    environment:
+      - FILENAME=parking_slots_atlantis.json
+    restart: always
+    networks:
+      - simulator_net
+
+  parking_imperial:
+    build: .
+    container_name: parking_imperial
+    environment:
+      - FILENAME=parking_slots_imperial.json
+    restart: always
+    networks:
+      - simulator_net
+
+networks:
+  simulator_net:
+    driver: bridge
